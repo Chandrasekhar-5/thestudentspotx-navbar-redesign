@@ -1,0 +1,70 @@
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.brand-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.brand-tagline {
+    font-size: 12px;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-label {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn.login {
+    border: 1px solid #ddd;
+}
+
+.btn.signup {
+    background-image: linear-gradient(to right, #fb923c, #ef4444);
+    color: #ffffff;
+}
