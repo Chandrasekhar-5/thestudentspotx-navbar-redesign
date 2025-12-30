@@ -21,7 +21,7 @@
             <ul class = "nav-links">
                 <li><a href = "index.html">Home</a></li>
                 <li class = "nav-item">
-                    <span class = "nav-label">For You</span>
+                    <span class = "nav-label" data-toggle = "dropdown">For You</span>
                     <ul class = "dropdown">
                         <li><a href = "#">For Students</a></li>
                         <li><a href = "#">For Colleges</a></li>
@@ -31,7 +31,7 @@
                     </ul>
                 </li>
                 <li class = "nav-item">
-                    <span class = "nav-label">Get Involved</span>
+                    <span class = "nav-label" data-toggle = "dropdown">Get Involved</span>
                     <ul class = "dropdown">
                         <li><a href = "#">Campus Team Recruitment</a></li>
                     </ul>
@@ -44,7 +44,43 @@
                 <a href = "#" class = "btn login">Login</a>
                 <a href = "#" class = "btn signup">Sign Up</a>
             </div>
+
+            <div class = "menu-toggle" aria-label = "Toggle navigation" id = "menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <ul class = "nav-links-m">
+                <li class = "nav-item-m">
+                    <div class = "mobile-dropdown-trigger">
+                    <span class = "nav-label-m">For You</span>
+                    <span class="mobile-dropdown-arrow">▸</span>
+                    </div>
+                    <ul class = "dropdown-m">
+                        <li><a href = "#">For Students</a></li>
+                        <li><a href = "#">For Colleges</a></li>
+                        <li><a href = "#">For Companies</a></li>
+                        <li><a href = "#">For Startups</a></li>
+                        <li><a href = "#">For Coaching Institutions</a></li>
+                    </ul>
+                </li>
+                <li class = "nav-item-m">
+                    <div class = "mobile-dropdown-trigger">
+                    <span class = "nav-label-m">Get Involved</span>
+                    <span class="mobile-dropdown-arrow">▸</span>
+                    <ul class = "dropdown-m">
+                        <li><a href = "#">Campus Team Recruitment</a></li>
+                    </ul>
+                </li>
+                <li><a href = "#">Contact</a></li>
+            </ul>
+            <a href = "#" class = "btn login">Login</a>
+    </nav>
+
+    <script src = "js/navbar.js"></script>
 </body>
 </html>
