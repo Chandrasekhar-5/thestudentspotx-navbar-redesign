@@ -8,6 +8,7 @@ A student-focused platform designed to connect students, startups, companies, co
 - Role-based pages (Students, Startups, Companies, Colleges, Coaching)
 - Grid-based layouts for scalability
 - Clean hover & transition effects
+- Subtle scroll reveal animations across pages
 
 ## Tech Stack
 - HTML5
